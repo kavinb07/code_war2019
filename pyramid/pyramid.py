@@ -1,4 +1,4 @@
-#!/user/bin/python
+#!/usr/bin/python
 
 # open data file
 with open('pyramid.txt', 'r') as f:
