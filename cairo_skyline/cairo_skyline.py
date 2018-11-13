@@ -1,7 +1,7 @@
 #!/user/bin/python
 
 # open data file
-with open('skyline.txt', 'r') as f:
+with open('cairo_skyline.txt', 'r') as f:
     data = f.readlines()
 
 # initalize matrix
