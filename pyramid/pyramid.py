@@ -109,6 +109,8 @@ for line in data:
         for coordinate in current_points:
             if matrix[11 - coordinate['y']][coordinate['x']] == ' ':
                 matrix[11 - coordinate['y']][coordinate['x']] = coordinate['display']
+    elif height == 0:
+        break
 
 # print matrix
 print_matrix(matrix)
