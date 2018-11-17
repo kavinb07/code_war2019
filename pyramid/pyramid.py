@@ -42,13 +42,15 @@ def get_points(center, height):
     # is used for the top of a pyramid and a zero is used for the inside of a
     # pyramid. Zeros are not printed. Points with a display of 0 are called
     # filler points
-    points = [
+    points = []
+
+    points.append(
         {
             'x': center,
             'y': height,
             'display': '_'
         }
-    ]
+    )
     # this loop puts filler points in the middle column of the pyramid
     for y in range(height):
         points.append({
@@ -98,6 +100,7 @@ def get_points(center, height):
                     'display': '0'
                 })
     return points
+
 
 # go through each data pair and set all of their points on the matrix
 for line in data:
