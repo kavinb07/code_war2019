@@ -17,9 +17,9 @@ for i in range(12):
 
 # function for printing the final matrix
 def print_matrix(full_matrix):
-    for col in full_matrix:
+    for row in full_matrix:
         row_string = ''
-        for cell in col:
+        for cell in row:
             # the matrix does not display 0, as it is the filler of the
             # pyramids
             if cell != '0':
