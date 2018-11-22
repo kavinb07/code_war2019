@@ -7,6 +7,7 @@ regex = re.compile('[^a-zA-Z]')
 with open("palindromes.txt", "r") as f:
     data = f.readlines()
 
+
 # checks if a string is a palindrome
 def palindrome(string):
     return regex.sub('', string).upper() == regex.sub('', string[::-1]).upper()
