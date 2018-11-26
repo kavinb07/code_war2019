@@ -54,3 +54,4 @@ for line in data:
     if line.count('=') == 9:
         break
     get_winner(line.rstrip())
+    print
