@@ -9,15 +9,15 @@ def calc_cubes(l, w, h):
     unpainted = (l-2) * (w-2) * (h-2)
     painted = total - unpainted
     more_less = ''
+    dimension_string = str(l) + 'x' + str(w) + 'x' + str(h)
     if painted > unpainted:
         more_less = 'MORE'
     elif painted < unpainted:
         more_less = 'LESS'
     elif painted == unpainted:
-        print 'A ' + str(l) + 'x' + str(w) + 'x' + str(h) + ' block is PERFECT.'
+        print 'A ' + dimension_string + ' block is PERFECT.'
         return None
-    print 'A ' + str(l) + 'x' + str(w) + 'x' + str(h) + ' block is ' + more_less + ' than Perfect.'
-
+    print 'A ' + dimension_string + ' block is ' + more_less + ' than Perfect.'
 
 
 for line in data:
