@@ -10,7 +10,6 @@ right = int(grid_data[0]) + 1
 top = 1
 bottom = int(grid_data[1]) - 1
 
-continue_loop = True
 message = ''
 
 while left < right and top < bottom:
