@@ -5,8 +5,8 @@ with open('disassemble.txt') as f:
 
 
 special_strings = [
-    'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven',
-    'eight', 'nine', 'ten'
+    'zero', 'one', 'two', 'three', 'four', 'five',
+    'six', 'seven', 'eight', 'nine', 'ten'
 ]
 
 print('Number ' + str(special_strings[int(data[0])]) + ' is alive!')
