@@ -26,6 +26,7 @@ for line in data:
 ranks = [{'name': 'q', 'score': 0}, {'name': 'q', 'score': 0},
          {'name': 'q', 'score': 0}, {'name': 'q', 'score': 0},
          {'name': 'q', 'score': 0}]
+
 for team, points in reversed(sorted(teams.items(), key=operator.itemgetter(1))):
     for i in range(len(ranks)):
         if points > ranks[i]['score']:
