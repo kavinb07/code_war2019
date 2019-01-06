@@ -34,7 +34,7 @@ for team, points in reversed(sorted(teams.items(), key=operator.itemgetter(1))):
             ranks[i]['score'] = points
             break
 
-#
+
 for i in range(len(ranks)):
     string = ''
     string += str(i + 1) + ' '
