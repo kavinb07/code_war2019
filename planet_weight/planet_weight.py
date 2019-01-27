@@ -12,4 +12,4 @@ for line in data:
     weight = float(values[1])
     planet = values[2]
     conversion = float(values[3])
-    print('On ' + planet + ', ' + name + ' would weigh ' + str(weight * conversion)) + ' pounds.'
+    print('On ' + planet + ', ' + name + ' would weigh ' + str(weight * conversion) + ' pounds.')
